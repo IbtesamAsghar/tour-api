@@ -1,0 +1,100 @@
+.commentMain {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    justify-content: center;
+    /* text-align: center; */
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    width: 5vw;
+    margin-right: 2rem;
+}
+
+.card input {
+    background-color: transparent;
+    border: 1px solid gray;
+    height: 2rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    color: gray;
+    outline: rgb(116, 115, 115);
+    font-size: .7rem;
+}
+
+/* button {
+    padding: 1rem 2rem;
+} */
+
+.commentMain button {
+    margin: auto;
+    /* width: 30%; */
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: .7rem 2.2rem;
+    background-color: #96a2fc;
+    border: none;
+    color: white;
+    border-radius: .4rem;
+    cursor: pointer;
+    font-size: .7rem;
+    box-shadow: 1px 1px 4px rgb(207, 207, 207);
+}
+
+.commentMain button:hover {
+    background-color: #8e99f0;
+}
+
+@media(max-width:1090px) {
+
+    input,
+    textarea {
+
+        margin: 0 1rem;
+    }
+
+}
+
+@media (max-width:960px) {
+
+
+    .commentMain {
+        width: 90%;
+    }
+}
+
+@media (max-width:680px) {
+
+    input,
+    textarea {
+        margin-left: 2rem;
+    }
+
+    .commentMain h2 {
+        font-size: 1.4rem;
+
+    }
+
+    .card label {
+        font-size: .8rem;
+
+    }
+}

@@ -1,0 +1,18 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.loader img {
+    width: 60%;
+    height: 40%;
+}
